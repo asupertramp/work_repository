@@ -1,0 +1,1 @@
+int m_strcmp(const char *str1,const char *str2);char *m_strstr(const char *haystack, const char * needle);size_t m_strlen (const char *s);char *m_strcpy(char *dest, const char *src);char *m_strcat(char *dest, const char *src);int m_toupper(int c);char * m_strchr (const char *s, int c);
