@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExpertSmsApp", "ExpertSmsApp\ExpertSmsApp.vcproj", "{3AA96F40-DFAF-4F96-B9EC-B91B1E003F88}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExpertSmsService", "ExpertSmsService\ExpertSmsService.vcproj", "{DFAC026F-FE8A-492B-A610-83DA35D651DC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HkSvrMonitor", "HkSvrMonitor\HkSvrMonitor.vcproj", "{A3FD0E73-EF93-4FC1-B4B0-1055D7F93BEF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3AA96F40-DFAF-4F96-B9EC-B91B1E003F88}.Debug.ActiveCfg = Debug|Win32
+		{3AA96F40-DFAF-4F96-B9EC-B91B1E003F88}.Debug.Build.0 = Debug|Win32
+		{3AA96F40-DFAF-4F96-B9EC-B91B1E003F88}.Release.ActiveCfg = Release|Win32
+		{3AA96F40-DFAF-4F96-B9EC-B91B1E003F88}.Release.Build.0 = Release|Win32
+		{DFAC026F-FE8A-492B-A610-83DA35D651DC}.Debug.ActiveCfg = Debug|Win32
+		{DFAC026F-FE8A-492B-A610-83DA35D651DC}.Debug.Build.0 = Debug|Win32
+		{DFAC026F-FE8A-492B-A610-83DA35D651DC}.Release.ActiveCfg = Release|Win32
+		{DFAC026F-FE8A-492B-A610-83DA35D651DC}.Release.Build.0 = Release|Win32
+		{A3FD0E73-EF93-4FC1-B4B0-1055D7F93BEF}.Debug.ActiveCfg = Debug|Win32
+		{A3FD0E73-EF93-4FC1-B4B0-1055D7F93BEF}.Debug.Build.0 = Debug|Win32
+		{A3FD0E73-EF93-4FC1-B4B0-1055D7F93BEF}.Release.ActiveCfg = Release|Win32
+		{A3FD0E73-EF93-4FC1-B4B0-1055D7F93BEF}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
